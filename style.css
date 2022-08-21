@@ -52,8 +52,8 @@ body {
     text-align: center;
 }
 
-@media (max-width: 375px) {
-    #card-wrapper {
-        margin: 20%;
+@media screen and (max-width: 375px) {
+    body {
+        width:400px
     }
 }
