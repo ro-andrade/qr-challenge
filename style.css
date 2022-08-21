@@ -1,6 +1,5 @@
 * {
     margin: auto;
-
 }
 
 :root {
@@ -51,4 +50,10 @@ body {
     color: var(--instructions-color);
     margin: 10px 25px 30px 25px;
     text-align: center;
+}
+
+@media (max-width: 375px) {
+    #card-wrapper {
+        margin: 20%;
+    }
 }
